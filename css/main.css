@@ -1582,7 +1582,6 @@ img {
 /******** RESPONSIVE SECTION START ********/
 
 @media only screen and (min-width: 1920px) {
-  .work h3,
   .contact h3 {
     font-size: 34pt;
     margin-top: 50px;
@@ -1624,6 +1623,15 @@ img {
     margin-left: 70px;
     margin-right: 70px;
   }
+  .art {
+    width: 100%;
+    padding: 0px;
+    margin-top: -200px;
+    margin-bottom: 70px;
+  }
+  .box {
+    margin-top: 30px;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1641,6 +1649,15 @@ img {
   }
   .set {
     padding-top: 10px;
+  }
+  .art {
+    width: 100%;
+    padding: 0px;
+    margin-top: -200px;
+    margin-bottom: 70px;
+  }
+  .box {
+    margin-top: 30px;
   }
 }
 
@@ -1674,6 +1691,15 @@ img {
   }
   .inbody {
     padding-bottom: 10px;
+  }
+  .art {
+    width: 100%;
+    padding: 0px;
+    margin-top: -200px;
+    margin-bottom: 70px;
+  }
+  .box {
+    margin-top: 30px;
   }
 }
 
@@ -1720,6 +1746,15 @@ img {
   }
   .contact .main-text {
     margin-top: 120px;
+  }
+  .art {
+    width: 100%;
+    padding: 0px;
+    margin-top: -180px;
+    margin-bottom: 50px;
+  }
+  .box {
+    margin-top: -120px;
   }
 }
 
@@ -1817,9 +1852,31 @@ img {
   #form {
     padding: 200px 30px;
   }
+
+  .art {
+    width: 100%;
+    padding: 0px;
+    margin-top: -180px;
+    margin-bottom: 20px;
+  }
+  .box {
+    margin-top: -100px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
+  .text h4 {
+    font-size: 12px;
+  }
+  .art {
+    width: 100%;
+    padding: 0px;
+    margin-top: -150px;
+    margin-bottom: 20px;
+  }
+  .box {
+    margin-top: -100px;
+  }
   .header-wrapper img {
     width: 50%;
   }
@@ -1867,16 +1924,17 @@ img {
     margin-top: 30px;
   }
   .text {
-    margin: 180px 20px;
+    margin: 150px 20px;
   }
   .set {
     padding-top: 80px;
   }
   .contact .main-text {
-    margin-top: 100px;
+    margin-top: -100px;
+    margin-bottom: 800px;
   }
   #form {
-    padding: 200px 30px;
+    padding: 100px 30px -200px;
   }
   .header-fullscreen h1 {
     font-size: 70pt;
