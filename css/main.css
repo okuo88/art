@@ -1623,15 +1623,6 @@ img {
     margin-left: 70px;
     margin-right: 70px;
   }
-  .art {
-    width: 100%;
-    padding: 0px;
-    margin-top: -200px;
-    margin-bottom: 70px;
-  }
-  .box {
-    margin-top: 30px;
-  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1651,13 +1642,10 @@ img {
     padding-top: 10px;
   }
   .art {
-    width: 100%;
-    padding: 0px;
-    margin-top: -200px;
+    width: 900px;
+    padding: 40px;
+    margin-top: -150px;
     margin-bottom: 70px;
-  }
-  .box {
-    margin-top: 30px;
   }
 }
 
@@ -1693,13 +1681,9 @@ img {
     padding-bottom: 10px;
   }
   .art {
-    width: 100%;
-    padding: 0px;
-    margin-top: -200px;
-    margin-bottom: 70px;
-  }
-  .box {
-    margin-top: 30px;
+    width: 750px;
+    padding: 30px;
+    margin-top: -150px;
   }
 }
 
@@ -1748,13 +1732,9 @@ img {
     margin-top: 120px;
   }
   .art {
-    width: 100%;
-    padding: 0px;
+    width: 500px;
+    padding: 25px;
     margin-top: -180px;
-    margin-bottom: 50px;
-  }
-  .box {
-    margin-top: -120px;
   }
 }
 
@@ -1857,25 +1837,13 @@ img {
     width: 100%;
     padding: 0px;
     margin-top: -180px;
-    margin-bottom: 20px;
-  }
-  .box {
-    margin-top: -100px;
+    margin-bottom: 40px;
   }
 }
 
 @media only screen and (max-width: 320px) {
   .text h4 {
     font-size: 12px;
-  }
-  .art {
-    width: 100%;
-    padding: 0px;
-    margin-top: -150px;
-    margin-bottom: 20px;
-  }
-  .box {
-    margin-top: -100px;
   }
   .header-wrapper img {
     width: 50%;
@@ -1938,5 +1906,11 @@ img {
   }
   .header-fullscreen h1 {
     font-size: 70pt;
+  }
+
+  .art {
+    width: 320px;
+    margin-top: -150px;
+    margin-bottom: 20px;
   }
 }
